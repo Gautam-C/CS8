@@ -15,6 +15,51 @@ public class DNArunner {
 
         Genome g2 = new Genome(s2);
 
+        System.out.println("Testing g getSequence");
+
+        System.out.println();
+
+        for (String elem : g.getSequence()){
+
+            System.out.print(elem);
+
+        }
+        System.out.println();
+
+        System.out.println("AGCC");
+
+        System.out.println();
+
+        System.out.println("Testing g1 getSequence");
+
+        System.out.println();
+
+        for (String elem : g1.getSequence()){
+
+            System.out.print(elem);
+
+        }
+        System.out.println();
+
+        System.out.println("AGCCT");
+
+        System.out.println();
+
+        System.out.println("Testing g2 getSequence");
+
+        System.out.println();
+
+        for (String elem : g2.getSequence()){
+
+            System.out.print(elem);
+
+        }
+        System.out.println();
+
+        System.out.println("AGCCTA");
+
+        System.out.println();
+
 
         System.out.println("Testing g getNucleotide");
         System.out.println(g.getNucleotide(3));
@@ -113,7 +158,7 @@ public class DNArunner {
 
         System.out.println("Testing g calculateGC");
 
-        System.out.println(g.calculateGC());
+        System.out.println("Result : " + g.calculateGC());
 
         System.out.println("Expected : 75.0");
 
@@ -122,7 +167,7 @@ public class DNArunner {
 
         System.out.println("Testing g1 calculateGC");
 
-        System.out.println(g1.calculateGC());
+        System.out.println("Result : " + g1.calculateGC());
 
         System.out.println("Expected : 60.0");
 
@@ -130,7 +175,7 @@ public class DNArunner {
 
         System.out.println("Testing g2 calculateGC");
 
-        System.out.println(g2.calculateGC());
+        System.out.println("Result : " + g2.calculateGC());
 
         System.out.println("Expected : 50.0");
 
