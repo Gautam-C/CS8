@@ -91,6 +91,7 @@ public class Genome {
 
                 rna[index] = elem;
 
+                index++;
             }
 
         }
@@ -121,7 +122,7 @@ public class Genome {
 
         }
 
-        return ((double)(gCount + cCount))/sequence.length;
+        return 100 * (((double)(gCount + cCount))/sequence.length);
 
     }
 
