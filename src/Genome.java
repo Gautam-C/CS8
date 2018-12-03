@@ -1,3 +1,11 @@
+/**
+ *
+ * I wonder which you saw first ...
+ *
+ * -Gautam Chasmawala
+ *
+ */
+
 public class Genome {
 
     private String[] sequence;
@@ -7,6 +15,7 @@ public class Genome {
         sequence = sequence1;
 
     }
+
 
     /** returns the array, sequence
      *
@@ -29,6 +38,7 @@ public class Genome {
         return sequence[index];
 
     }
+
 
     /** Prints to terminal the nucleotide sequence as a String
      *
